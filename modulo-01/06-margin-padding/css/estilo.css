@@ -1,0 +1,34 @@
+#exemplo{
+    background-color: green;
+    color: #fff;
+    width: 500px;
+
+    /* Padding: espacamento interno */
+    /* Margin: espacamento externo */
+
+    /* padding-top: 10px; 
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 30px; */
+
+    /* Para economizar código podemos fazer tudo junto, colocando
+    no sentido horário, começando pela parte superior, os tamanhos
+    de cada lado */
+    padding:10px 20px 30px 30px;
+    /* como definimos o width="500px" e colocamos 50px de padding, a imagem fica com 550px */
+
+    height: 200px;
+}
+
+#exemplo2{
+    background-color: red;
+    color: #fff;
+    width: 500px;
+
+    /* margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px; */
+
+    margin:20px 30px 20px 40px;
+}

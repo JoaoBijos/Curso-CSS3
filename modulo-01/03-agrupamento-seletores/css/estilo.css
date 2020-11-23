@@ -1,0 +1,23 @@
+/*
+h1{
+    color: red;
+    text-align: center;
+}
+h2{
+    color: red;
+    text-align: center;
+}
+p{
+    color: red;
+    text-align: center;
+}
+*/
+
+
+/* Para não termos que repetir códigos como no exemplo acima
+usamos o recurso de agrupar os seletores */
+
+h1, h2, p{
+    color: red;
+    text-align: center;
+}

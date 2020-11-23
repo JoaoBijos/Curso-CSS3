@@ -1,0 +1,30 @@
+img{
+    margin: 40px 0 0 60px;
+    /* Colocando filtros na imagem */
+    /* O blur() desfoca a imagem */
+
+    /* brightness() da brilho, sendo 100% o padrão */
+
+    /* Temos também o contrast(), sendo também 100% o seu padrão */
+
+    /* O greyscale() passa tons de cinza */
+
+    /* Conseguimos inverter as cores com o invert() */
+
+    /* opacity() aplica transparencia */
+
+    /* Com o saturate() conseguimos mudar a saturação da imagem */
+
+    /* Podemos usar também sepia() para deixar a imagem em 
+    tons de sepia, valor padrão é zero */
+
+    /* hue-rotate() permite mudar as cores de acordo com os angulos da propiedade 
+    hue que são definidos em graus, seu padrão é 0deg */
+
+    /* Para o drop-shadow() devemos passar mais de um parametro, o primeiro 
+    sendo o offset horizontal, o segundo o offset vertical, o terceiro é um desfoque
+    e por ultimo a sua cor */
+
+    /* Podemos usar mais de um filtro em uma mesma imagem */
+    filter: drop-shadow(10px 20px 5px #000) contrast(150%);
+}

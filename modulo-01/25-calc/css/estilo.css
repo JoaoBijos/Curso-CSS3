@@ -1,0 +1,25 @@
+/* A função Calc serve para fazer calculos nos valores das propiedades */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Definindo uma altura fixa para o nav */
+nav{
+    width: 100vw;
+    height: 80px;
+    background-color: rgb(18, 18, 104);
+}
+
+/* Queremos que o banner ocupe toda a tela */
+.banner{
+    width: 100vw;
+    /* Vamos usar a função Calc para subtrair 80px do Nav do 100vh do banner */
+    /* Com isso não será criada uma barra de rolagem, 100% da tela será ocupada */
+    height: calc(100vh - 80px);
+    /* Devemos voltar uma pasta para acharmos a imagem */
+    background-image: url('../img/fundo.png');
+    background-size: cover;
+}
+

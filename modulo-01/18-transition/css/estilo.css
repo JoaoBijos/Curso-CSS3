@@ -1,0 +1,55 @@
+#exemplo{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    /* Declaramos em qual propiedade nós iremos suavisar a transição */
+    transition-property: width;
+    /* Duração da transição em segundos */
+    transition-duration: 2s;
+    /* Configura o ritmo da transição */
+    /* transition-timing-function: ease; por exemplo, faz com que a transição comece divagar
+    fique rapida e termine lenta */
+    transition-timing-function: linear; /* Deixa na mesma velocidade do inicio ao fim */
+    /* Tempo de espera para se inicar a transição */
+    /* transition-delay: 2s; */
+}
+
+/* Adicionando uma pseudo classe, hover */
+/* Esta pseudo classe controla o estado do elemento quando passamos o mouse nele */
+#exemplo:hover{
+    width: 350px;
+    height: 350px;
+    background-color: green;
+}
+
+#exemplo2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(24, 31, 94);
+    /* Para economizar código, utilizamos a propiedade estenográfica  */
+    transition:2s linear;
+}
+
+/* Adicionando uma pseudo classe, hover */
+/* Esta pseudo classe controla o estado do elemento quando passamos o mouse nele */
+#exemplo2:hover{
+    width: 350px;
+    height: 350px;
+    background-color: rgb(50, 59, 131);
+}
+
+#exemplo3{
+    width: 200px;
+    height: 200px;
+    background-color: #212121;
+    /* Para economizar código, utilizamos a propiedade estenográfica  */
+    transition:width 1s linear, heigth 1s linear;
+}
+
+/* Adicionando uma pseudo classe, hover */
+/* Esta pseudo classe controla o estado do elemento quando passamos o mouse nele */
+#exemplo3:hover{
+    width: 350px;
+    height: 350px;
+    background-color: #ccc;
+}

@@ -1,0 +1,23 @@
+*{
+    /* Para que exista um padrão entre todos os navegadores, colocamos no 
+    seletor universal o tamanho da fonte como 100%, e nas fontes individuais
+    colocamos font-size:1em; */
+    font-size: 100%;
+}
+
+
+p{
+    /* Font-family define o conjunto de fontes que o navegador irá usar */
+    font-family: Arial, Verdana, sans-serif;
+    /* font-variant="small-caps";  varia o tanho da fonte */
+    /* font-weight: bold; deixa em negrito, pra deixar normal é só colocar 'normal' */
+    /* font-style: ; temos o italic e o oblique */
+    font-style: italic;
+    font-size: 40px;
+    /* Tamanho padrão do navegador */
+    font-size:1em; /* 1em = 16px */
+
+    /* Quando por exemplo você tiver uma fonte de 40px e quiser transformar ela para 
+    uma unidade relativa, basta dividir 40px / 16px = 2,5em, assim também com 
+    qualquer outro valor */
+}

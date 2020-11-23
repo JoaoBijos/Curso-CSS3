@@ -1,0 +1,14 @@
+/* Uma váriavel que serve para a mesma cor da propiedade color ser usada várias vezes */
+
+body{
+    background-color: blue;
+}
+
+button{
+    background-color: white;
+    color: red;
+    width: 100px;
+    height: 50px;
+    /* Adicionamos uma borda, colocando currentColor, puxamos a cor que foi declarada acima */
+    border:2px solid currentColor;
+}

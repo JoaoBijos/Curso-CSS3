@@ -1,0 +1,20 @@
+#conteudo{
+    width: 600px;
+    height: 1200px;
+    background-color: red;
+    /* Devemos colocar a posiçao da DIV principal como relativa para que as 
+    DIV's que estiverem dentro dela conseguirem tomar ela como referência */
+    position: relative;
+}
+
+#texto{
+    width: 500px;
+    background-color: green;
+    /* Position: absolute; permite que coloquemos a div em qualquer lugar 
+    basta apenas colocar as coordenadas após isso */
+    /* Para que nossa DIV fique fixa, usamos o position: fixed; 
+    assim a DIV irá ficar em*/
+    position:absolute;
+    left: 0;
+    top: 40px;
+}

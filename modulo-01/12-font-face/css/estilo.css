@@ -1,0 +1,15 @@
+/* Podemos além de usar as fontes padrões, baixar fontes da internet e usa-las */
+*{
+    font-size: 100%;
+
+    /* Para utilizar uma fonte baixada da internet, usamos o @font-face */
+    @font-face {
+        font-family: open_suns; /* A familia da fonte */
+        src: url(opensans-regular-webfont.woff); /* O nome do arquivo / onde ele está */
+    }
+}
+
+p{
+    font-size: 2,5em;
+    font-family: open_suns;
+}

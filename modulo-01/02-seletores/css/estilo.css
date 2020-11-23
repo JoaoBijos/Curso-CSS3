@@ -1,0 +1,43 @@
+/* SELETOR É O ELEMENTO HTML QUE EU QUERO ESTILIZAR */
+
+/* SELETOR UNIVERSAL */
+
+/* Geralmente se usa para definir um padrão inicial para a página, 
+depois pode-se alterar cada item conforme desejado */
+/* * Ele aplica regras a todos os itens no documento */
+*{
+    margin: 0; /* Tudo fica sem margem */
+    padding: 0; /* Tudo fica sem padding */
+}
+
+
+/* SELETOR TAG */
+h1{
+    color: blue;
+    font-size: 50px;
+}
+
+p{
+    color: green;
+    font-size: 12px;
+}
+
+/* SELETOR ATRIBUTO */
+/* Quando temos mais de ma da mesma TAG, devemos mostrar qual queremos usar 
+usando o [type=" "] ou o [name=" "]*/
+input[type="text"]{
+    width: 200px;
+    background-color: #ccc;
+}
+input[type="email"]{
+    width: 200px;
+    background-color: #ccc;
+}
+input[type="submit"]{
+    width: 50px;
+    background-color: green;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}

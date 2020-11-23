@@ -1,0 +1,47 @@
+p{
+    color: red;
+    /* Podemos decorar as letras com o text-ransform="" */
+    /* text-transform: uppercase; */
+    text-align: justify;
+
+    /* Adicionar um recuo na primeira linha */
+    text-indent: 20px;
+
+    /* Definir a altura das linhas */
+    line-height: 25px;
+
+    /* Definir a direção do texto */
+    direction: ltr; /* left to rigth */
+
+    /* Espacamento entre as letras */
+    letter-spacing:2px;
+
+    /* Espaçamento entre as palavras */
+    word-spacing: 4px;
+
+}
+
+/* Para alinhar os textos usamos o text-align */
+/* Para decorar os textos usamos o text-decoration 
+o seu padrão é text-decoration="none" */
+
+h1{
+    text-align: left;
+    text-decoration: underline;
+
+    /* Adicionar uma sombra ao texto */
+    /* Basicamente aqui duplicamos o que está escrito, de maneira que pareça com uma sombra */
+    text-shadow:1px 3px 4px red; /* Possição horizontal / depois a vertical / desfoque / cor da sombra */
+}
+h2{
+    text-align: right;
+    text-decoration: overline;
+    /* Sem o desfoque */
+    text-shadow:3px 3px red;
+}
+h3{
+    /* Sem o desfoque e sem a cor */
+    text-align: center;
+    text-decoration: none;
+    text-shadow:3px 3px;
+}

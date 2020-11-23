@@ -1,0 +1,50 @@
+/* Criando cantos arredondados */
+
+#bloco{
+    background-color: green;
+    width: 300px;
+    height: 150px;
+    /* Usamos a propiedade border-radius: */
+    border-radius: 20px;   
+}
+
+#bloco2{
+    background-color: green;
+    width: 300px;
+    height: 150px;
+    /* Quando atribuimos somente um valor, ele é aplicado a todos os cantos
+    porem, podemos definir tamanhos diferentes para cada canto */
+    border-radius:20px 50px;
+}
+
+#bloco3{
+    background-color: green;
+    width: 300px;
+    height: 150px;
+
+    border-radius:20px 50px 100px;
+}
+
+#bloco4{
+    background-color: green;
+    width: 300px;
+    height: 150px;
+    /* Superior Esquerdo / Superior Direito / Inferior Direito / Inferior Esquerdo */
+    border-radius:20px 50px 100px 200px; 
+}
+
+#bloco5{
+    background-color: green;
+    width: 300px;
+    height: 150px;
+    /* Podemos trabalhar tambem com as bordas individuais */
+    border-top-left-radius:20px;
+}
+
+#bloco6{
+    background-color: green;
+    width: 300px;
+    height: 150px;
+    /* Podemos trabalhar tambem com as bordas individuais */
+    border-bottom-right-radius:20px;
+}

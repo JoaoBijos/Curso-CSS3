@@ -1,0 +1,11 @@
+#conteudo{
+    background-color: green; /* cor de fundo */
+    color: #fff; /* cor dos textos */
+    padding: 20px; /* Espaçamento interno */
+    /* width: 80%; largura (pode ser em PX ou em %)*/
+    /* height: 100px; altura (pode ser em PX ou em %)*/
+    /* Podemos definir um valor minimo e um maximo para as dimensões */
+    /* max-width: 500px; */
+    min-width: 500px;
+    min-height: 20px;
+}

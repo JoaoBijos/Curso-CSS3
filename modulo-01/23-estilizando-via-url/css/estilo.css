@@ -1,0 +1,6 @@
+/* Será aplicado para a DIV que o usuário clicar, devido ao uso do target */
+
+.noticia:target{
+        background-color: #c3c3c3;
+        padding:10px;
+    }

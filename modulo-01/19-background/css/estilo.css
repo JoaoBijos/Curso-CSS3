@@ -1,0 +1,33 @@
+body{
+    /* Definindo uma cor de fundo */
+    /* background-color: rgb(182, 182, 182); */
+
+    /* Definindo uma imagem como fundo */
+    /* background-image: url(../img/cloudMed.png); */
+
+    /* Para a imagem não se repitir */
+    /* background-repeat: no-repeat; */
+    
+    /* Posição da imagem, background-position:; 
+    primeira coordenada: esquerda, direita ou centro, segunda top, bottom ou center */
+
+    /* Para que a imagem fique estática e não mude de posição conforme rolarmos a 
+    página, usamos o background-attachament: fixed; */
+    /* background-attachment: fixed; */
+
+    /* Tamnho do background */
+    /* background-size: 100% 100%; */
+
+    /* Propiedade estenográfica */
+    /* cor / url da imagem / posição / tamanho / não repitir / fixa */
+    background:#ccc url(../img/fundo.png) center center/100% 100% no-repeat fixed;
+
+    color: #ffffff;
+}
+
+#paragrafos{
+    background-color: #c2c0c0c0;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 4px;
+}

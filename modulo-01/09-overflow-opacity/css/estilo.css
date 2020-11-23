@@ -1,0 +1,20 @@
+#conteudo{
+    background-color: rgb(179, 179, 179);
+    width: 300px;
+    height: 80px;
+    /* Quando você trabalha com conteudos dinâmicos e com tamanhos fixos,
+    pode acontecer por exemplo do seu texto exceder o espaço definido pra ele */
+    /* Para evitar isso usamos o overflow=" " */
+    /* overflow="visible" - valor padrão */
+    /* overflow="hidden" - esconde aquilo que excedeo espaço */
+    /* overflow="scroll" - adiciona barras de rolagem */
+    /* overflow="auto" - adiciona uma barra de rolagem onde for necessário */
+    overflow: auto;
+}
+
+#conteudo p{
+    /* 1 representa 100%, ou seja, sem opacidade */
+    /* 0.5 representa 50% transparente */
+    /* 0.0 representa 0%, ou seja, fica invisível */
+    opacity: 0.5; 
+}

@@ -1,0 +1,18 @@
+#conteudo{
+    background-color: rgb(107, 107, 107);
+    width: 300px;
+    padding: 20px;
+    /* Neste caso acima, a DIV deixa de ter 300px, e passa a ter 340, 
+    pois foi adicionado 20px de padding de cada lado*/
+    /* Para evitar isso, para colocarmos padding sem alterar a largura 
+    da DIV, usamos a propiedade box-sizing="border-box"*/
+
+    /* Para adicionarmos uma sombra na div, usamos o box-shadow */
+    box-shadow:10px 10px 5px rgb(0, 0, 0); /* Posição horizontal / Posição Vertical / Desfoque / Cor */
+}
+
+*{
+    box-sizing: border-box; 
+    /* Agora toda vez que quisermos, será possível adicionar um padding 
+    sem que o tamanho da DIV seja alterado */
+}

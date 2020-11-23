@@ -1,0 +1,25 @@
+/* Representado cores */
+
+#cores{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+#cores2{
+    color: #fff;
+    width: 200px;
+    height: 200px;
+    /* Para dar um efeito gradiente, usamos o linear-gradiente() */
+    /* O padrão é de cima para baixo, podemos alterar sua direção
+    colocando ela antes das cores, ex: linear-gradient(to left, #212121, #ffff) */
+    /* ex Diagonal: to top left */
+    background: linear-gradient(to top,#212121,#ffff, #212121);
+}
+
+#cores3{
+    color: #fff;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(#fff,#212121);
+}

@@ -1,0 +1,41 @@
+#exemplo1{
+    /* Colocando bordas */
+    /* basta utilizar border-style: ; para definir o estilo de borda que queremos */
+    border-style: solid;
+    /* Tamanho da borda */
+    border-width: 5px;
+    /* Cor da borda */
+    border-color: red;
+}
+
+#exemplo2{
+    /* Para economizar código, utilizamos a propiedade estenográfica  */
+    /* Quando colocamos somente border, os quatro lados ficam iguais */
+    border:solid 5px red;
+}
+
+#exemplo3{
+    /* Quando colocamos border-top, vai ser aplicado somente na borda superior */
+    border-top:solid 5px red;
+}
+
+#exemplo4{
+    /* Quando colocamos border-left, vai ser aplicado somente na borda da esquerda */
+    border-left:solid 5px red;
+}
+
+#exemplo5{
+    /* Quando colocamos border-rigth, vai ser aplicado somente na borda da direita */
+    border-right:solid 5px red;
+}
+
+#exemplo6{
+    /* Quando colocamos border-bottom, vai ser aplicado somente na borda da direita */
+    border-bottom:solid 5px red;
+}
+
+#exemplo7{
+    /* Outline é muito parecida com o border, ele coloca uma linha externa ao elemento, 
+    e não trabalha com lados individuais */
+    outline: solid 5px green;
+}

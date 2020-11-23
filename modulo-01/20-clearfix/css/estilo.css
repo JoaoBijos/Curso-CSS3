@@ -1,0 +1,33 @@
+/* Usamos o Clearfix para reparar erros que o float gera */
+/* Usa-se o clearfx quando estamos usando também o float */
+
+.container{
+    background-color: red;
+    width: 500px;
+    margin: 0 auto;
+}
+
+/* Nos possibilita colocar conteúdo direto co css */
+.container::before, .container::after{
+    content: '';
+    display: table;
+}
+
+.container::after{
+    clear: both;
+}
+
+.box1{
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+.box2{
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    float: right;
+}
+
